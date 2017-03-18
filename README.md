@@ -34,10 +34,10 @@ In WooCommerce, it's recommended that you set `Download Limit` and `Download Exp
 Screenshots
 ---------------
 The screen after checkout before the download:
-[Screenshot Before](http://i.imgur.com/kpYn58A.png)
+![Screenshot Before](http://i.imgur.com/kpYn58A.png)
 
 Shows the page that appears after the download:
-[Screenshot After](http://i.imgur.com/cRku7A9.png)
+![Screenshot After](http://i.imgur.com/cRku7A9.png)
 
 Licence:
 -----------
