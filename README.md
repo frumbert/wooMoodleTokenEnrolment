@@ -27,6 +27,18 @@ Possible values you can use are:
 
 You are required to specify at least the `course`. You'd only then get a 1 seat, 1 place token. See the Moodle web service documentation for the local_token_generatetokens webservice for more information on default values.
 
+Recommended Settings
+--------------------------------
+In WooCommerce, it's recommended that you set `Download Limit` and `Download Expiry` to `1` so the customer doesn't re-generate the tokens multiple times. You should also set `Sold Individually` so that there's no quantity (since that doesn't apply).
+
+Screenshots
+---------------
+The screen after checkout before the download:
+[Screenshot Before](http://i.imgur.com/kpYn58A.png)
+
+Shows the page that appears after the download:
+[Screenshot After](http://i.imgur.com/cRku7A9.png)
+
 Licence:
 -----------
 
