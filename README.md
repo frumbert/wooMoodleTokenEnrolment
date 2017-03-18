@@ -7,6 +7,8 @@ Not much use if you don't have Moodle with the token enrolment plugins installed
 
 When a user buys a product and gets through the checkout, the digital download actually performs some code and generates, from your Moodle installation, a bunch of access tokens based on parameters inside the digital download file. Your customer can then hand these out to their learners.
 
+(oh, it should also work with MarketPress, but I don't have a copy to try it out)
+
 How to make downloads
 ---------------------------------
 
