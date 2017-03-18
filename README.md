@@ -1,7 +1,7 @@
 wooMoodleTokenEnrolment
 =====================
 
-A plugin designed to allow a wooCommerce digital download to generate enrolment tokens using the (Moodle Token Enrolment)[https://github.com/frumbert/moodle-token-enrolment] set of plugins. The tokens themselves are just 10-character random strings that let learners register and enrols them directly to a given Moodle course. Only people with a token can register.
+A plugin designed to allow a wooCommerce digital download to generate enrolment tokens using the [Moodle Token Enrolment](https://github.com/frumbert/moodle-token-enrolment) set of plugins. The tokens themselves are just 10-character random strings that let learners register and enrols them directly to a given Moodle course. Only people with a token can register.
 
 Not much use if you don't have Moodle with the token enrolment plugins installed and activated, or WooCommerce on your Wordpress installation ...
 
