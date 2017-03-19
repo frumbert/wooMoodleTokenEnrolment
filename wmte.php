@@ -71,7 +71,7 @@ function wmte_create_menu() {
 		'administrator',
 		WMTE_PLUGIN_DIRECTORY.'/wmte_settings_page.php',
 		'',
-		plugins_url('wooMoodleTokenEnrolment/icon.png', wmte_PLUGIN_DIRECTORY) //__FILE__));
+		plugins_url('wooMoodleTokenEnrolment/icon.png', WMTE_PLUGIN_DIRECTORY) //__FILE__));
 	);
 }
 
