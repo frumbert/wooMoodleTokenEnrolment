@@ -84,12 +84,13 @@ function wmte_register_settings() {
 	register_setting( 'wmte-settings-group', 'wmte_webservice_token' );
 }
 
-// over-ride the url for Marketpress *if* the download is a file named something-wmte.txt
+// over-ride the url for Marketpress / WooCommerce *if* the download is a file named something-wmte.txt
 add_filter('mp_download_url', 'wmte_download_url', 10, 3);
 
-// over-ride the url for WooCommerce *if* the download is a file named something-wmte.txt
+// we don't know the productid, so we can't get the download method, so we spam it
 add_filter('woocommerce_download_file_redirect','woo_wmte_download_url', 5, 2);
 add_filter('woocommerce_download_file_force','woo_wmte_download_url', 5, 2);
+add_filter('woocommerce_download_file_xsendfile','woo_wmte_download_url', 5, 2);
 
 // woo shim to handle different arguments
 function woo_wmte_download_url($filepath, $filename) {
